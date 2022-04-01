@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---------->
+
+    <!--Component CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <!------------>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <!------------>
+
+    <!-- Stylesheets -->
+    <link rel = "stylesheet" href = "grid.css">
+    <link rel = "stylesheet" href = "menu.css">
+    <link rel = "stylesheet" href = "style.css">
+    <!----------------->
+
+    <title>Kevni's Portfolio</title>
+
+</head>
+<body>
+    <header class = "site-header">
+        <div class = "container">
+            <div class = "row no-gap">
+                <div class = "col4 logo">
+                    <h1 class = "brand">
+                        <a href = ""> Kevni Kica </a>
+                    </h1>
+                </div>
+                <div class = "col8">
+                    <div class = "menu-toggle">
+                        <i class = "fa fa-minus"></i>
+                        <i class = "fa fa-minus"></i>
+                        <i class = "fa fa-minus"></i>
+                    </div>
+                    <nav class = "menu" id = "primary-menu">
+                        <ul class = "menu-nav">
+                            <li class = "menu-nav-item"><a href = "#about">About</a></li>
+                            <li class = "menu-nav-item"><a href = "#skills">Skills</a></li>
+                            <li class = "menu-nav-item"><a href = "#portfolio">Portfolio</a></li>
+                            <li class = "menu-nav-item"><a href = "#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class = "section" id = "about">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col6">
+                    <img class = "img-rounded" id = "avatar" src = "Profile-Image.png" alt = "Name">
+                </div>
+                <div class = "col6">
+                    <header class = "section-header">
+                        <h1 class = "section-title site-title text-left">Hi, I'm Kevni Kica</h1>
+                        <h2 class = "section-sub-title text-left">I am a junior programmer</h2>
+                        <p class = "lead">My name is Kevni Kica, I am currently in a coding bootcamp through UCONN and here is what I have to show for it so far!</p>
+                        <a class = "btn btn-primary" href = "#contact">Contact Me</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id="skills">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col12">
+                    <header class = "section-header">
+                        <h1 class ="section-title">My Skills</h1>
+                        <p class = "lead">I am still a young developer but I am learning quicly, here are some things I can do so far.</p>
+                    </header>
+                </div>
+            </div>
+            <div class = "row features-list">
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-python-plain feature-icon"></i>
+                    <h3 class = "feature-title">Languages</h3>
+                    <p class = "feature-description">HTML, CSS, Javascript</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-java-plain feature-icon"></i>
+                    <h3 class = "feature-title">Skill 2</h3>
+                    <p class = "feature-description">Can work with API's and use JSON</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-cplusplus-plain feature-icon"></i>
+                    <h3 class = "feature-title">Skill 3</h3>
+                    <p class = "feature-description">Skill Description</p>
+                </div>
+            </div>
+            <div class = "row features-list">
+                <div class = "col4 feature-item text-center" >
+                    <i class = "fas fa-code feature-icon"></i>
+                    <h3 class = "feature-title">skill 4</h3>
+                    <p class = "feature-description">Skill Description</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-mysql-plain feature-icon"></i>
+                    <h3 class = "feature-title">skill 5</h3>
+                    <p class = "feature-description">Skill Description</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-cplusplus-plain feature-icon"></i>
+                    <h3 class = "feature-title">skill 6</h3>
+                    <p class = "feature-description">Skill Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id="portfolio">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col12">
+                    <header class = "section-header">
+                        <h1 class = "section-title">My Portfolio</h1>
+                        <p class = "lead text-center">Here are my projects that I've built.</p>
+                    </header>
+                </div>
+            </div>
+            <div class = "row no-gutter portfolio">
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#001" href = "https://kevnikica.github.io/bootcamp-repo/">
+                        <img src = "Portfolio/001-small.jpg" alt = "001">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "001">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/001.jpg" alt = "001">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Weekly Weather Report</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler</p>
+                                    <p>Filler Filler Filler</p>
+                                    <p>Filler Filler Filler</p>
+                                    <p>Filler Filler Filler</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#002" href = "">
+                        <img src = "Portfolio/002-small.jpg" alt = "002">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "002">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/002.jpg" alt = "002">
+
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name2</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler2</p>
+                                    <p>Filler Filler Filler2</p>
+                                    <p>Filler Filler Filler2</p>
+                                    <p>Filler Filler Filler2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#003" href = "">
+                        <img src = "Portfolio/003-small.jpg" alt = "003">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "003">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/003.jpg" alt = "003">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name3</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler3</p>
+                                    <p>Filler Filler Filler3</p>
+                                    <p>Filler Filler Filler3</p>
+                                    <p>Filler Filler Filler3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#004" href = "">
+                        <img src = "Portfolio/004-small.jpg" alt = 004">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "004">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/004.jpg" alt = "004">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler4</p>
+                                    <p>Filler Filler Filler4</p>
+                                    <p>Filler Filler Filler4</p>
+                                    <p>Filler Filler Filler4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row no-gutter portfolio">
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#005" href = "">
+                        <img src = "Portfolio/005-small.jpg" alt = 005">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "005">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/005.jpg" alt = "005">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#006" href = "">
+                        <img src = "Portfolio/006-small.jpg" alt = 006">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "006">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/006.jpg" alt = "006">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name6</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#007" href = "">
+                        <img src = "Portfolio/007-small.jpg" alt = 007">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "007">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/007.jpg" alt = "007">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name7</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#008" href = "">
+                        <img src = "Portfolio/008-small.jpg" alt = 008">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "008">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "Portfolio/008.jpg" alt = "008">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name8</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id = "contact">
+        <div class = "container">
+            <div class="row">
+                <div class = "col6">
+                    <header class="section-header">
+                        <h1 class="section-title text-left">Contact Me</h1>
+                        <p class="lead text-left">If you want to contact me for any inquiries please reach me using this form and I will get back to you as soon as possible</p>
+                    </header>
+                    <ul class="list-inline">
+                        <li class = "list-inline-item"><i class = "fa fa-map-marker"></i>       6 Quarry Vilage Road, 06410 </li>
+                        <li class = "list-inline-item"><i class = "fa fa-phone"></i>       +1(203)695-8692</li>
+                        <li class = "list-inline-item"><i class="fa fa-envelope"></i>       kovnin1997@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col6">
+                    <form action = "process.php" method = "post" class = "dark contact-form">
+                        <h3 class="form-title">Send a Message</h3>
+                        <div class="form-field">
+                            <input class="text" type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-field">
+                            <input class="text email" type="email" name="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="form-field">
+                            <textarea class="textarea" name="message" placeholder= "Add your message here" required></textarea>
+                        </div>
+                        <div class="form-field" style = "display: none">
+                            <input type="hidden" name="url" placeholder="URL">
+                        </div>
+                        <input class="btn btn-submit" type="submit" value="Send">
+                        <div id = "status-messages"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src = "js/app.js"></script>
+    <!------------->
+
+</body>
+</html>
